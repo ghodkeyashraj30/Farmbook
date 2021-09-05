@@ -1,0 +1,153 @@
+.top{
+    background-color: #aed580 !important;
+    background: url('leaves.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
+}
+.top p{
+    padding-top: 30px;
+    margin-left: 30px;
+    color: black;
+}
+
+
+
+h1{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.navslide{
+   display: flex;
+}
+
+.search{
+    margin-left: 100px;
+    margin-top: 25px;
+    padding-left: 20px;
+
+}
+hr{
+    width: 200px;
+    color: gray;
+}
+
+span{
+    color: gray;
+}
+.search img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.nav-bar{
+    padding-top: 25px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+ul{
+    list-style-type: none;
+    font-weight: bold;
+    
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+    color: #ff6600;
+    cursor: pointer;
+}
+
+ul li:hover{
+    background-color: #358873;
+    border-radius: 10px;
+}
+
+ul li a:active{
+    background-color: #358873;
+    border-radius: 10px;
+}
+
+.main{
+    margin-left: 350px;
+
+}
+.square-box{
+    width: 300px;
+    height: 300px;
+    border: 3px solid #ff6600;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.video img{
+    width:294px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+h5{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.write p{
+    color: gray;
+    margin-left: 20px;
+}
+p span{
+    margin-left: 80px;
+}
+
+.button{
+      text-align: center;
+}
+
+#start{
+    width: 100px;
+    background-color: #ff6600;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #358873;
+    box-shadow: none;
+}
+@media only screen and (max-width: 480px) {
+
+    .top{
+        background-color: #aed580;
+        background-image: none;
+    }
+
+    .nav-bar{
+        padding-top: 25px;
+        margin-left: -10px;
+    }
+
+    .navslide{
+          display: block;
+    }
+    .search{
+        margin-top: -70px;
+        margin-bottom: 50px;
+    }
+
+
+    .main{
+        margin-left: 20px;
+        display: block;
+    }
+    
+}
+
+.body{
+    margin-top: 20px;
+}
